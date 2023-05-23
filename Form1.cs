@@ -14,11 +14,12 @@ namespace gameTRY20
     public partial class Form1 : Form
     {
         WindowsMediaPlayer interact;
-        public Bitmap HandlerTexure = Resource1.hunter,
-                      TargetTexure = Resource1.target;
+        public Bitmap HandlerTexure = Resource1.target,
+                      TargetTexure = Resource1.hunter;
         private Point _targetPosition = new Point(300,300);
         private Point _direction = Point.Empty;
         private int _score = 0;
+        
         public Form1()
         {
             InitializeComponent();
@@ -26,9 +27,10 @@ namespace gameTRY20
             UpdateStyles();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private  void timer1_Tick(object sender, EventArgs e)
         {
             Refresh();
+            
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -92,7 +94,32 @@ namespace gameTRY20
                 i += 1;
                 a += 10;
             }
+
+         
+
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            pause pause = new pause();
+            pause.timer1 = this.timer1;
+            pause.ShowDialog();
+            
+            
+        }
+
+        private void button1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode== Keys.Escape)
+            {
+                button1_Click(new object(), new EventArgs());
+            }
+                
+        }
+                
+        
+    
 
         private void AddScore(int score)
         {

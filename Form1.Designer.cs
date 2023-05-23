@@ -33,6 +33,7 @@ namespace gameTRY20
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.scoreLabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // timer1
@@ -58,6 +59,18 @@ namespace gameTRY20
             this.scoreLabel.TabIndex = 0;
             this.scoreLabel.Text = "0";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(23, 24);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(128, 51);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Пауза";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.button1_KeyDown);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -65,6 +78,7 @@ namespace gameTRY20
             this.BackgroundImage = global::gameTRY20.Resource1.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.scoreLabel);
             this.DoubleBuffered = true;
             this.Name = "Form1";
@@ -81,6 +95,7 @@ namespace gameTRY20
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Label scoreLabel;
+        private System.Windows.Forms.Button button1;
     }
 }
 

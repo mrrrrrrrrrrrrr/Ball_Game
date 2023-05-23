@@ -1,7 +1,6 @@
 C:\Users\User\source\repos\gameTRY20\bin\Debug\gameTRY20.exe.config
 C:\Users\User\source\repos\gameTRY20\bin\Debug\gameTRY20.exe
 C:\Users\User\source\repos\gameTRY20\bin\Debug\gameTRY20.pdb
-C:\Users\User\source\repos\gameTRY20\obj\Debug\gameTRY20.csproj.AssemblyReference.cache
 C:\Users\User\source\repos\gameTRY20\obj\Debug\gameTRY20.Form1.resources
 C:\Users\User\source\repos\gameTRY20\obj\Debug\gameTRY20.Properties.Resources.resources
 C:\Users\User\source\repos\gameTRY20\obj\Debug\gameTRY20.Resource1.resources
@@ -12,3 +11,6 @@ C:\Users\User\source\repos\gameTRY20\obj\Debug\gameTRY20.pdb
 C:\Users\User\source\repos\gameTRY20\obj\Debug\Interop.MediaPlayer.dll
 C:\Users\User\source\repos\gameTRY20\obj\Debug\Interop.WMPLib.dll
 C:\Users\User\source\repos\gameTRY20\obj\Debug\gameTRY20.csproj.ResolveComReference.cache
+C:\Users\User\source\repos\gameTRY20\obj\Debug\gameTRY20.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\gameTRY20\obj\Debug\gameTRY20.menu.resources
+C:\Users\User\source\repos\gameTRY20\obj\Debug\gameTRY20.pause.resources
